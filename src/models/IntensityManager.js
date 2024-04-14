@@ -1,11 +1,6 @@
 class IntensityManager {
     constructor(array = []) {
-        //this.segments = [[10,1], [30,0]];
         this.segments = array;
-    }
-
-    printSegments(){
-        console.log(this.segments);
     }
 
     add(from, to, increment){
@@ -79,22 +74,13 @@ class IntensityManager {
         return this.segments
     }
 
-    addMichal(from, to, amount) {
-        console.log('from: ' + from + '; to: ' + to +  '; amount: ' + amount);
-        if(this.segments.length==0)
-        {
-            this.segments.push([from, amount]);
-            this.segments.push([to, amount]);
-        } else {
-            for (let i = 0; i < this.segments.length; i++) {
-                let currentSegmentValue = this.segments[i][0];
+    //TO IMPLEMENT
+/*     set(from, to, increment){
 
-                let test = 1
-            }
-        }
+    } */
 
-console.log(this.segments)
-}
+
+
 }
 
 module.exports = IntensityManager;
