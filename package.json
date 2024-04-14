@@ -1,0 +1,24 @@
+{
+  "name": "intensity-challenge",
+  "version": "1.0.0",
+  "description": "Javascript coding challenge",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests/IntensityManager.test.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michalgnacek/intensity-challenge.git"
+  },
+  "author": "Michal Gnacek",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/michalgnacek/intensity-challenge/issues"
+  },
+  "homepage": "https://github.com/michalgnacek/intensity-challenge#readme",
+  "devDependencies": {
+    "chai": "^5.1.0",
+    "mocha": "^10.4.0"
+  }
+}
